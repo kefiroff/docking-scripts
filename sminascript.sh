@@ -1,6 +1,6 @@
 #!/bin/bash
 output_dir="result"
-dir1="protein2" 
+dir1="pdb-to-pdbqt" 
 for fullpath in "$dir1"/*
 do
   file=$(basename "$fullpath")
@@ -8,8 +8,8 @@ do
   shortname=$(echo "$filename" | cut -c 1-4)
   fileNames+=("$shortname")
 done
-dir1="protein2"
-dir2="ligand2"
+dir1="pdb-to-pdbqt"
+dir2="sdf-to-pdbqt"
 for name in "${fileNames[@]}"
 do
   # Construct the file paths

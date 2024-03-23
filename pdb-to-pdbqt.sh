@@ -1,5 +1,5 @@
 #!/bin/bash
-dir="pdb-to-pdbqt" # replace with your directory
+dir="pdb-to-pdbqt"
 
 for file in "$dir"/*
 do
