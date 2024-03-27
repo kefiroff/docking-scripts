@@ -1,7 +1,7 @@
 import os
 import shutil
 directory1 = 'C:/Users/ildar/work/pdbbind/ligand'
-directory2 = 'C:/Users/ildar/work/pdbbind/pdb-to-pdbqt'
+directory2 = 'C:/Users/ildar/work/pdbbind/protein_pdbqt'
 directory3 = 'C:/Users/ildar/work/pdbbind/sdf-to-pdbqt'
 filename_list = []
 for filename in os.listdir(directory2):
